@@ -18,25 +18,38 @@
         button:hover {
             background-color: #0056b3;
         }
+        .counter {
+            margin-top: 20px;
+            font-size: 18px;
+        }
     </style>
 </head>
 <body>
-    <h1>¡Bienvenido a mi página web!</h1>
-    <p>Este es un ejemplo simple de un archivo HTML.</p>
-    <button onclick="window.location.href='https://www.youtube.com/watch?v=OAlNlOpBU1Y';">
-        No hay huevos a pinchar aquí
-    </button>
+<h1>¡Bienvenido a mi página web!</h1>
+<p>Este es un ejemplo simple de un archivo HTML.</p>
+<button onclick="window.location.href='https://www.youtube.com/watch?v=OAlNlOpBU1Y';">
+    No hay huevos a pinchar aquí
+</button>
 
-    <div class="counter">
-        Visitas a esta página: <span id="contador">0</span>
-    </div>
+<div class="counter">
+    Visitas a esta página: <span id="contador"></span>
+</div>
 
-    <script>
-        let visitas = localStorage.getItem('visitas') || 0;
-        visitas++;
-        localStorage.setItem('visitas', visitas);
+<script>
+    // Mostrar alerta de bienvenida
+    alert('¡Gracias por visitar mi página!');
+
+    // Contador de visitas
+    let visitas = localStorage.getItem('visitas') || 0;
+    visitas++;
+    localStorage.setItem('visitas', visitas);
+
+    if (visitas == 1) {
+        document.getElementById('contador').textContent = "¡Bienvenido por primera vez!";
+    } else {
         document.getElementById('contador').textContent = visitas;
-    </script>
+    }
+</script>
 </body>
 </html>
 

@@ -1,0 +1,64 @@
+En este documento se definen los pasos realizados sobre el repositorio junto a los comandos que han sido usados.
+
+
+README.md
+
+1. Nos clonamos el repositorio en nuestro ordenandor para poder trabajar de manera remota con el comando "git clone https://github.com/HectorCRZBQ/GitHubFlow.git".
+2. Nos colocamos en la rama correspondiente para realizar los cambios oportunos con el comando "git checkout feature".
+3. Lo primero realizado ha sido crear un documento "README.md" con el comando "nano README.md".
+4. Dentro del README incoporamos los miembros del equipo B.
+5. Realizamos el comando "git status" para conocer los archivos que han sido modificados.
+6. Ejecutamos el comando "git add README.md" para incorporar el archivo al push que vamos a realizar.
+7. Redactamos el commit correspondiente como "git commit -m "Update of the README file with the team members" ".
+8. Realizamos el comando "git push origin feature" para actualizar el contenido de la rama.
+9. Ejecutamos una pull request con los cambios realizados y esperamos a que sea aceptada por alguno de los miembros del equipo.
+
+
+index.html
+
+10. Creamos un nuevo archivo .html con el comando "nano index.html" que incorpora una estructura basica de html.
+11. Ejecutamos el comando para añadirlo al commit "git add index.html".
+12. Redactamos un commit "git commit -m "Creation of .html file for a webpage" " .
+13. Lo actualizamos en la rama main de manera remota con el comando "git push origin feature".
+14. Ejecutamos una pull request con los cambios realizados y esperamos a que sea aceptada por alguno de los miembros del equipo.
+
+
+README.md
+
+15. Accedemos al README.md y modificamos su contenido con el comando "nano README.md".
+16. Incorporamos una descripcion explicando el funcionamiento de las ramas y la metodoligia que se esta siguiendo.
+17. Ejecutamos el comando para añadirlo al commit "git add README.md".
+18. Redactamos un commit "git commit -m "Add explaneition about how we work in README.md" " .
+19. Lo actualizamos en la rama main de manera remota con el comando "git push origin feature".
+
+
+index.html
+
+20. Accedemos al index.html y modificamos su contenido con el comando "nano index.html".
+21. Integramos un hipervinculo que nos direcciona a una cancion de Melendi.
+22. Ejecutamos el comando para añadirlo al commit "git add index.html".
+23. Redactamos un commit "git commit -m "Add a link to redirect to youtube a play a melendi's song" " .
+24. Lo actualizamos en la rama main de manera remota con el comando "git push origin feature".
+
+
+README.md y index.html
+
+25. Ejecutamos una pull request con los cambios realizados y esperamos a que sea aceptada por alguno de los miembros del equipo.
+
+
+index.html
+
+26. Accedemos al index.html y modificamos su contenido con el comando "git nano index.html"
+27. Mejoramos el hipervinculo integrandolo dentro de un boton.
+28. Ejecutamos el comando para añadirlo al commit "git add index.html".
+29. Redactamos un commit "git commit -m "Updated design for the hyperlink" " .
+30. Lo actualizamos en la rama main de manera remota con el comando "git push origin feature".
+31. Ejecutamos una pull request con los cambios realizados y esperamos a que sea aceptada por alguno de los miembros del equipo.
+
+trabajo_realizado.txt
+
+32. Creamos un nuevo archivo .txt con el comando "nano trabajo_realizado.txt" explicando los pasos ejecutados.
+33. Ejecutamos el comando para añadirlo al commit "git add trabajo_realizado.txt".
+34. Redactamos un commit "git commit -m "Creation of .txt explaining the steps maded" " .
+35. Lo actualizamos en la rama main de manera remota con el comando "git push origin feature".
+36. Ejecutamos una pull request con los cambios realizados y esperamos a que sea aceptada por alguno de los miembros del equipo.
